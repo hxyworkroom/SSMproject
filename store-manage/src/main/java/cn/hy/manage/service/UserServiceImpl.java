@@ -1,12 +1,12 @@
-package com.zzzz.manage.service;
+package cn.hy.manage.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.zzzz.manage.mapper.UserMapper;
-import com.zzzz.manage.pojo.User;
+import cn.hy.manage.mapper.UserMapper;
+import cn.hy.manage.pojo.User;
 @Service
 public class UserServiceImpl implements UserService {
 	@Autowired

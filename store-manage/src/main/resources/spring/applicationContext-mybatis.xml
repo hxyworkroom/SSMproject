@@ -22,7 +22,7 @@
 		<property name="dataSource" ref="dataSource"/>
 		<property name="configLocation" value="classpath:/mybatis/mybatis-config.xml"/>
 		<property name="mapperLocations" value="classpath:/mybatis/mappers/*.xml"/>
-		<property name="typeAliasesPackage" value="com.zzzz.manage.pojo"/>
+		<property name="typeAliasesPackage" value="cn.hy.manage.pojo"/>
 	</bean>
 	
 	
@@ -34,7 +34,7 @@
 	-->
 	<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!--定义接口包路径  -->
-		<property name="basePackage" value="com.zzzz.manage.mapper"/> 
+		<property name="basePackage" value="cn.hy.manage.mapper"/> 
 	</bean>
 	
 	

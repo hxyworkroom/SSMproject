@@ -1,4 +1,4 @@
-package com.zzzz.manage.controller;
+package cn.hy.manage.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.zzzz.manage.pojo.User;
-import com.zzzz.manage.service.UserService;
+import cn.hy.manage.pojo.User;
+import cn.hy.manage.service.UserService;
 
 @Controller
 @RequestMapping("hello")
